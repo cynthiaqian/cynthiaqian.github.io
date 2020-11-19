@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+
 }
 
 body {
@@ -8,6 +9,7 @@ body {
   flex-direction: column;
   height: 100%;
   min-height: 100%;
+
   font-family: sans-serif;
   text-align: center;
 }
@@ -27,12 +29,14 @@ footer {
 a {
   color: black;
   text-decoration: none;
-}
-a:hover {
-  color: hotpink;
-}
-a:active {
-  color: blue;
+
+  &:hover {
+    color: hotpink;
+  }
+
+  &:active {
+    color: blue;
+  }
 }
 
 .main-content {
@@ -43,5 +47,3 @@ a:active {
   justify-content: center;
   align-items: center;
 }
-
-/*# sourceMappingURL=default.css.map */
