@@ -41,9 +41,14 @@ a {
 
 .main-content {
   display: flex;
+  flex-direction: column;
   flex: 1;
   font-size: 20px;
   padding: 0% 10% 5%;
   justify-content: center;
   align-items: center;
+}
+
+.icons {
+  display: flex;
 }
