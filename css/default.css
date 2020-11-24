@@ -47,6 +47,26 @@ a:active {
 
 .icons {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.icons .experience {
+  flex: 1 1 auto;
+  width: 30%;
+  height: 200px;
+  border-radius: 25px;
+  background: #ccccff;
+  padding: 5px;
+  margin: 5px;
+}
+.icons .experience h1 {
+  font-size: 20px;
+}
+.icons .experience h2 {
+  font-size: 18px;
+}
+.icons .experience p {
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=default.css.map */

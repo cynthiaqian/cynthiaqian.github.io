@@ -9,7 +9,6 @@ body {
   flex-direction: column;
   height: 100%;
   min-height: 100%;
-
   font-family: sans-serif;
   text-align: center;
 }
@@ -51,4 +50,31 @@ a {
 
 .icons {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .experience {
+    flex:1 1 auto;
+    width: 30%;
+    height: 200px;
+    border-radius: 25px;
+    background: #ccccff;
+    padding: 5px;
+    margin: 5px;
+    h1 {
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 15px;
+    }
+    .project {
+
+    }
+    .job {
+
+    }
+  }
 }
