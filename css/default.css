@@ -70,6 +70,7 @@ footer {
   padding: 1% 0px 1%;
   width: 100%;
   align-self: flex-end;
+  margin-top: auto;
 }
 footer a {
   color: black;
@@ -126,13 +127,13 @@ footer #instagram:active {
   padding: 5px;
   margin: 5px;
 }
-.icons .experience h1 {
+.icons .experience h2 {
   font-size: 20px;
 }
-.icons .experience h2 {
+.icons .experience h3 {
   font-size: 18px;
 }
-.icons .experience h3 {
+.icons .experience h4 {
   font-weight: normal;
   font-size: 15px;
 }
