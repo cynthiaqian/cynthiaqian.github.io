@@ -29,6 +29,12 @@ header {
   justify-content: center;
   flex: 1;
 }
+header a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  color: #000;
+}
 header #name {
   font-family: streetvertising;
   font-size: 50px;
@@ -37,13 +43,7 @@ header #navlinks {
   font-size: 30px;
   font-family: chubGothic;
 }
-header a {
-  color: black;
-  text-decoration: none;
-  position: relative;
-  color: #000;
-}
-header a::before {
+header #navlinks a::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -55,14 +55,14 @@ header a::before {
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
 }
-header a:hover {
+header #navlinks a:hover {
   color: #000;
 }
-header a:hover:before {
+header #navlinks a:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
-header a:active {
+header #navlinks a:active {
   color: gray;
 }
 
@@ -106,9 +106,6 @@ footer #instagram:active {
   padding-top: 15%;
   font-size: 28px;
   font-family: chubGothic;
-}
-.main-content p {
-  padding-top: 5%;
 }
 
 .icons {
