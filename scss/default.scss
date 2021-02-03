@@ -72,7 +72,6 @@ header {
 
 footer {
   padding: 1% 0px 1%;
-  margin-top: auto;
   a {
     color: black;
     text-decoration: none;
@@ -111,17 +110,16 @@ footer {
 .main-content {
   display: flex;
   flex-direction: column;
-  flex: 3;
+  flex:3 1 auto;
   font-size: 150%;
   padding: 0% 10%;
-  flex-shrink: 0;
   h1 {
     padding-top: 5%;
     font-size: 28px;
     font-family: chubGothic;
   }
   .words {
-    padding-top: 5%;
+    padding-top: 3%;
     h1 {
       padding-top: 15%;
     }
