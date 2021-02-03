@@ -70,7 +70,6 @@ footer {
   height: 72px;
   padding: 5px 0px 5px;
   width: 100%;
-  flex-shrink: 0;
   align-self: flex-end;
 }
 footer a {
