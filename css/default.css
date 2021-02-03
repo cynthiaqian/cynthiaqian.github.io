@@ -67,7 +67,7 @@ header #navlinks a:active {
 }
 
 footer {
-  height: 65px;
+  height: 70px;
   flex-shrink: 0;
 }
 footer a {
