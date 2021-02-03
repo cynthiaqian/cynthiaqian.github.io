@@ -66,6 +66,9 @@ header #navlinks a:active {
 
 footer {
   padding: 1% 0px 1%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
 }
 footer a {
   color: black;
