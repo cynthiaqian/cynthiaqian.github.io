@@ -65,10 +65,13 @@ header #navlinks a:active {
 }
 
 footer {
-  padding: 1% 0px 1%;
+  padding: 1% 0% 1%;
   display: flex;
+  width: 100%;
   flex-direction: column;
-  border: 1px solid red;
+  align-self: flex-end;
+  justify-content: center;
+  text-align: center;
 }
 footer a {
   color: black;
@@ -133,7 +136,7 @@ footer #instagram:active {
   height: 200px;
   border-radius: 25px;
   background: #ccccff;
-  padding: 5px;
+  padding: 5px 10px 5px;
   margin: 5px;
 }
 .icons .experience h2 {
