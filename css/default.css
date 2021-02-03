@@ -14,8 +14,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   font-family: sans-serif;
   text-align: center;
 }
@@ -103,11 +102,18 @@ footer #instagram:active {
   flex: 3;
   font-size: 150%;
   padding: 0% 10%;
+  flex-shrink: 0;
 }
 .main-content h1 {
-  padding-top: 15%;
+  padding-top: 5%;
   font-size: 28px;
   font-family: chubGothic;
+}
+.main-content .words {
+  padding-top: 5%;
+}
+.main-content .words h1 {
+  padding-top: 15%;
 }
 .main-content a {
   text-decoration: none;
