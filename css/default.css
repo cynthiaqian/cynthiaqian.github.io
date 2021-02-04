@@ -68,6 +68,7 @@ header #navlinks a:active {
 footer {
   margin-top: auto;
   text-align: center;
+  padding-bottom: 1%;
 }
 footer a {
   color: black;
