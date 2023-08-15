@@ -50,6 +50,9 @@ header #navlinks a:hover {
   text-decoration: none;
   color: #A4A4CE;
 }
+#main h1 {
+  font-family: chubGothic;
+}
 
 footer a {
   color: black;
